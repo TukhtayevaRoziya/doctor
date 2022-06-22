@@ -50,7 +50,7 @@ export const Footer = () => {
 </a>
       </div>
       <img src={chiziq} alt="" className={style.lien} />
-      <p  className={style.title}> Copyright 2022 The Robiya All Rights Reserved.</p>
+      <p  className={style.title}> Copyright 2022 The Roziya All Rights Reserved.</p>
     </div>
   )
 }
