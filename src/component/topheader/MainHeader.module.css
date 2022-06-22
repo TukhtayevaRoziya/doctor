@@ -1,0 +1,52 @@
+.TopHeaderMain {
+    /* background: linear-gradient(270deg, #0A4FB6 -9.87%, #28859A 111.47%); */
+    padding: 40px 100px 0;
+    background-image: url("../../accses/MainHeader/tolqin.png");
+    background-position: bottom;
+    background-size: 100% 100%;
+    overflow: hidden;
+}
+
+.Network {
+    text-align: right;
+}
+
+.Network a {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    color: #FFFFFF;
+    margin-right: 40px;
+    text-decoration: none;
+}
+
+.Network a img {
+    margin-right: 10px;
+}
+
+@media(min-width:0) and (max-width:1050.9px) {
+    .Network {
+        display: none;
+    }
+    .TopHeaderMain {
+        background: linear-gradient(270deg, #0A4FB6 -9.87%, #28859A 111.47%) !important;
+        padding: 10px 30px 0;
+        background-image: none;
+        background-position: bottom;
+        background-size: 100% 100%;
+        overflow: hidden;
+    }
+}
+@media(min-width:1051px) and (max-width:1320.9px) {
+    .TopHeaderMain {
+        background: linear-gradient(270deg, #0A4FB6 -9.87%, #28859A 111.47%) !important;
+        padding-bottom: 4rem;
+        background-image: none;
+        padding: 40px 20px 0;
+    }
+    .Network a {
+        margin-right: 20px;
+    }
+}

@@ -1,0 +1,144 @@
+.HomeHeader {
+    background-repeat: no-repeat;
+    /* background-image: url("../../../assets/home/header/Glavniy.svg"); */
+    background-size: 100%;
+    margin-top: 2rem;
+    width: 100%;
+}
+
+.Block {
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+
+.Block img {
+    /* height: 400px; */
+    width: 45%;
+}
+
+.Block__Title {
+    width: 50%;
+    margin-top: 6rem;
+}
+
+.Block__Title h1 {
+    font-family: 'Montserrat';
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 64px;
+    width: 100%;
+    color: white;
+}
+
+.Block__Title p {
+    font-family: 'Montserrat';
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 24px;
+    color: white;
+}
+
+.SignUp {
+    background-color: transparent;
+    border-radius: 10px;
+    width: 173px;
+    border: 2px solid white;
+    margin-top: 18px;
+    outline: none;
+    cursor: pointer;
+    height: 52px;
+}
+
+.SignUp a {
+    color: #FFFFFF;
+    font-size: 16px;
+    font-family: 'Poppins';
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.SignUp:hover {
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+@media(min-width:0) and (max-width:800.9px) {
+    .HomeHeader {
+        padding: 20px 0;
+        height: auto;
+
+    }
+
+    .Block__Title {
+        width: 100%;
+    }
+
+    .Block {
+        flex-direction: column-reverse;
+        justify-content: center !important;
+    }
+
+    .Block img {
+        width: 90%;
+        margin: 0 auto;
+        height: 50%;
+    }
+
+    .Block__Title h1 {
+        font-size: 33px;
+        line-height: 64px;
+        width: 100%;
+        margin-top:20px;
+    }
+
+    .SignUp {
+        margin-top: 30px;
+    }
+}
+
+@media(min-width:801px) and (max-width:1200.9px) {
+    .HomeHeader {
+        padding: 0;
+        height: auto;
+    }
+
+    .Block img {
+        width: 40%;
+        height: auto;
+
+    }
+
+    .Block__Title {
+        width: 60%;
+    }
+
+    .Block {
+        justify-content: space-between;
+    }
+
+    .Block__Title h1 {
+        font-size: 45px;
+        width: 100%;
+    }
+}
+
+@media(min-width:1201px) and (max-width:1480.9px) {
+    .HomeHeader {
+        padding:  0;
+    }
+
+    .Block img {
+        width: 50%;
+        height: auto;
+
+    }
+
+    .Block__Title {
+        width: 50%;
+    }
+}
